@@ -389,6 +389,9 @@ h5{
         width: 180px;
         height: auto;
     }
+    .Footer{
+        flex-direction: column;
+    }
     .footer{
         margin: 0;
         flex-wrap: wrap;
@@ -404,6 +407,10 @@ h5{
     }
     .footer2{
         margin-left: 20px;
+    }
+    #ska{
+        width: 200px;
+        height: auto;
     }
 
 }
@@ -460,9 +467,15 @@ h5{
     }
 
     .footer{
+        flex-direction: column;
         margin: 0;
         flex-wrap: wrap;
         width: 100%;
+    }
+    
+    #ska{
+        width: 200px;
+        height: auto;
     }
 
 }

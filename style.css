@@ -416,15 +416,35 @@ h5{
         font-size: 0.8em;
     }
     .Main-item{
+        flex-direction: column;
         width: 100px;
+    }
+    .Main2{
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 50px;
     }
     .Main2-item{
         width: 100px;
         height: 150px;
     }
 
+    .Main4{
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #polka{
         display: none;
+    }
+    #ooo{
+        display: none;
+    }
+
+    .footer{
+        margin: 0;
+        flex-wrap: wrap;
+        width: 100%;
     }
 
 }
